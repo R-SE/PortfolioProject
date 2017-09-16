@@ -1,4 +1,4 @@
-This is a personal portfolio webpage project for freeCodeCamp found at Build a Personal Portfolio Webpage
+This is a personal portfolio webpage project for freeCodeCamp found at Build a Personal Portfolio Webpage: https://www.freecodecamp.org/challenges/build-a-personal-portfolio-webpage
 
 
 <~~~~~~~~~~* Specs per freeCodeCamp *~~~~~~~~~~~~>
