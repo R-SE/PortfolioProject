@@ -1,6 +1,7 @@
 * {
   border: 1px solid black;
-  background-color: gray;
+  /*background-color: gray;*/
+  font-family: sans-serif, Helvetica;
 }
 
 body {
@@ -8,8 +9,116 @@ body {
   flex-direction: column;
 }
 
+/*Header*/
 header {
-  /*position: -webkit-sticky;
+  display: flex;
+}
+
+header > div {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+header > div > div {
+  flex: 1;
+  max-width: 60px;
+  min-width: 40px;
+  margin: 5px;
+  align-self: center;
+}
+
+header .Logo {
+  flex: 4;
+  font-size: 1.5em;
+}
+
+header .empty {
+  flex: 1;
+}
+
+/*Navigation Panel*/
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: black;
+  text-transform: uppercase;
+  position: -webkit-sticky;
   position: sticky;
-  top: 100px;*/
+  top: 0px;
+  /*align-items: center;*/
+}
+
+nav div {
+  display: flex;
+  min-height: 30px;
+  flex: 1;
+}
+
+nav div:hover {
+  background-color: #0068b1;
+}
+
+/*a:hover {
+  color: #200f0f;
+}*/
+
+nav a {
+  color: white;
+  font-size: 1.5em;
+  margin: auto;
+}
+
+/*About Me Section*/
+
+/*Work Section*/
+#Work {
+  display: flex;
+  justify-content: space-around;
+}
+
+#Work div {
+  flex: 20%;
+  text-align: justify;
+}
+
+/*Showcase*/
+#Showcase, #Showcase2 {
+  display: flex;
+  align-items: center;
+
+}
+
+.Project {
+  flex: 1;
+}
+
+.ProjectInfo {
+  flex: 3;
+}
+
+/*Footer*/
+
+footer {
+  text-align: center;
+
+}
+
+/* Miscellaneous Styling */
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+h2 {
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin: 30px 70px 30px 70px;
 }
