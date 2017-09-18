@@ -23,3 +23,5 @@ This is a personal portfolio webpage project for freeCodeCamp found at Build a P
 3. Use of @media query to make mobile-responsive page with two layouts
 
 <~~~~~~~~~~~~~~* Things to work on *~~~~~~~~~~~~~>
+1. Should start with mobile layout first next time
+2. Get in the habit of cleaning up redundant code and poor indentation

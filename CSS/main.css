@@ -1,7 +1,7 @@
 * {
   /*border: 1px solid black;*/
   /*background-color: gray;*/
-  font-family: sans-serif, Helvetica;
+  font-family: 'Raleway', Helvetica;
 }
 
 body {
@@ -178,6 +178,10 @@ a {
 img {
   max-width: 100%;
   object-fit: contain;
+}
+
+h1 {
+  
 }
 
 h2 {
