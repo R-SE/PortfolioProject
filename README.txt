@@ -21,6 +21,10 @@ This is a personal portfolio webpage project for freeCodeCamp found at Build a P
 1. Use of flexbox
 2. Use of sticky positioning for nav bar
 3. Use of @media query to make mobile-responsive page with two layouts
+4. Use of pseudoclass selectors in css
+5. Use of RGBa transparency
+6. Use of border-radius styling
+7. Use of more logos over text headings
 
 <~~~~~~~~~~~~~~* Things to work on *~~~~~~~~~~~~~>
 1. Should start with mobile layout first next time
